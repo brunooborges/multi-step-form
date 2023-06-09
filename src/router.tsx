@@ -10,7 +10,7 @@ export const Router = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route
-					path="/"
+					path="*"
 					element={<FormStep1 />}
 				/>
 				<Route
